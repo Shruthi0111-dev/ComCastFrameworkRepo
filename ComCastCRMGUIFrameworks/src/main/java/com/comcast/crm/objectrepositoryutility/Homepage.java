@@ -32,7 +32,8 @@ public class Homepage {
 	@FindBy(linkText = "Sign Out")
 	private WebElement signoutLnk;
 
-    
+    @FindBy(linkText = "Products")
+    private WebElement productLnk;
 	
     public WebElement getOrgLink() {
 		return orgLink;
