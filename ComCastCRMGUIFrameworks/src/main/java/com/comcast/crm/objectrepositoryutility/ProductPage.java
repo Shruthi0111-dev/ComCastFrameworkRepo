@@ -19,6 +19,8 @@ public class ProductPage {
 	private WebElement ele2;
 	
 	@FindBy(name="submit")
-	private WebElement ele3;
+	private WebElement ele4;
+	
+	
 	
 }
